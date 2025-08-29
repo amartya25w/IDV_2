@@ -1,0 +1,115 @@
+############################
+# OS junk
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# Build output
+############################
+bin/
+obj/
+out/
+Debug/
+Release/
+x64/
+x86/
+*.exe
+*.dll
+*.pdb
+
+############################
+# .NET tooling
+############################
+.vs/
+TestResults/
+*.user
+*.suo
+*.userprefs
+*.sln.docstates
+project.lock.json
+project.fragment.lock.json
+
+############################
+# IDEs
+############################
+# VS Code (ignore all; keep if you want team settings)
+.vscode/
+# Rider / IntelliJ
+.idea/
+*.sln.iml
+
+############################
+# NuGet
+############################
+packages/
+*.nupkg
+*.snupkg
+*.nuspec
+# Restore cache
+**/obj/project.assets.json
+**/obj/*.csproj.nuget.*
+
+############################
+# Publishing / artifacts
+############################
+publish/
+artifacts/
+dist/
+*.zip
+
+############################
+# Logs & coverage
+############################
+logs/
+*.log
+coverage/
+.coverage
+.coverage.*
+coverage.cobertura.xml
+TestResult.xml
+
+############################
+# Databases (local dev files)
+############################
+# (MySQL has no local file; keep SQL scripts if you use them)
+*.mdf
+*.ldf
+*.sqlite
+*.sqlite3
+*.db
+
+############################
+# Environment & secrets
+############################
+.env
+.env.*
+secrets.json
+# If your dev appsettings contain secrets, keep these ignored.
+# Remove these lines if you intentionally commit dev configs.
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.local.json
+
+# Keys & certs
+*.pfx
+*.p12
+*.key
+*.pem
+
+############################
+# Front-end (if present)
+############################
+node_modules/
+npm-debug.log*
+yarn-error.log*
+# (Keep lockfiles committed)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+############################
+# EF Core
+############################
+# IMPORTANT: Do NOT ignore migrations—commit them.
+# Migrations/
