@@ -1,6 +1,6 @@
 ﻿using BCrypt.Net;
 using Microsoft.EntityFrameworkCore;
-using UserAuthAPI.Data;
+using IDV_2.Data;
 using UserAuthAPI.DTOs;
 using UserAuthAPI.Models;
 

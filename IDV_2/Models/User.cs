@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using IDV_2.Models;
+using System.ComponentModel.DataAnnotations;
 
 namespace UserAuthAPI.Models
 {
@@ -6,7 +7,7 @@ namespace UserAuthAPI.Models
     {
         [Key]
         public int Id { get; set; }
-
+        public Guid PublicId { get; set; } = Guid.NewGuid();
         [Required]
         [StringLength(100)]
         public string FirstName { get; set; } = string.Empty;
@@ -30,5 +31,6 @@ namespace UserAuthAPI.Models
 
         // Navigation property for refresh tokens
         public ICollection<RefreshToken> RefreshTokens { get; set; } = new List<RefreshToken>();
+        public ICollection<FormTemplate> FormTemplatesCreated { get; set; } = new List<FormTemplate>();
     }
 }

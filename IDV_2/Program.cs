@@ -1,9 +1,10 @@
+using IDV_2.Data;
+using IDV_2.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
-using UserAuthAPI.Data;
 using UserAuthAPI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -74,7 +75,7 @@ builder.Services.AddAuthorization();
 // Register custom services
 builder.Services.AddScoped<IJwtService, JwtService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
-
+builder.Services.AddScoped<IFormTemplateService, FormTemplateService>();
 // Configure Swagger/OpenAPI
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>

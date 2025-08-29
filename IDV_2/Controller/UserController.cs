@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
-using UserAuthAPI.Data;
+using IDV_2.Data;
 using UserAuthAPI.DTOs;
 
 namespace UserAuthAPI.Controllers

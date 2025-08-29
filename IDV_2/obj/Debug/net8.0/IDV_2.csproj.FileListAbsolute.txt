@@ -143,4 +143,5 @@ C:\Users\amartya.mishra\source\repos\IDV_2\IDV_2\obj\Debug\net8.0\refint\IDV_2.d
 C:\Users\amartya.mishra\source\repos\IDV_2\IDV_2\obj\Debug\net8.0\IDV_2.pdb
 C:\Users\amartya.mishra\source\repos\IDV_2\IDV_2\obj\Debug\net8.0\IDV_2.genruntimeconfig.cache
 C:\Users\amartya.mishra\source\repos\IDV_2\IDV_2\obj\Debug\net8.0\ref\IDV_2.dll
+C:\Users\amartya.mishra\source\repos\IDV_2\IDV_2\obj\Debug\net8.0\IDV_2.sourcelink.json
 C:\Users\amartya.mishra\source\repos\IDV_2\IDV_2\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
